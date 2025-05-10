@@ -1,0 +1,29 @@
+/* Ensure the app takes the full viewport */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--primary-bg, #ffffff);
+  color: var(--text-color, #1a202c);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.min-h-screen {
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-container {
+  flex: 1; /* Allow the chat container to grow and fill available space */
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Full height */
+  width: 100%; /* Full width */
+  background: var(--primary-bg); /* Use the dark/light background */
+}
