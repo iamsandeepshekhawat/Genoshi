@@ -45,7 +45,7 @@ const ChatInterface: React.FC = () => {
         </div>
       </div>
 
-      {/* RIGHT SIDE - IMAGE SLIDER */}
+
       <div className="w-1/3 bg-[#041124] flex items-center justify-center p-6">
         <div className="relative w-full max-w-sm h-[400px] bg-[#020C1B] rounded-2xl shadow-lg border border-[#06B6D4]/30 p-4 flex flex-col items-center justify-center">
           <img
