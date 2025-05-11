@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = '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';
+const API_KEY = import.meta.env.VITE_API_KEY;
 const API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 
 export const fetchBotResponse = async (userMessage: string): Promise<string> => {
